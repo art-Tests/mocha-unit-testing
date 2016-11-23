@@ -1,14 +1,14 @@
-class Cal {
+export default class Calculator {
 	
 	constructor() {
 		// code...
 	}
 
-	add(a:number,b:number):number{
+	Add(a:number,b:number):number{
 		return a+b;
 	}
 
-	multiply(a:number,b:number):number{
+	Multiply(a:number,b:number):number{
 		return a*b;
 	}
 }

@@ -4,13 +4,17 @@
   "description": "Mocha Tests",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers ts:ts-node/register"
   },
   "author": "Jani Hartikainen",
   "license": "MIT",
   "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.33",
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
-    "mochawesome": "^1.5.3"
+    "mochawesome": "^1.5.3",
+    "ts-node": "^1.7.0",
+    "typescript": "^2.0.10"
   }
 }

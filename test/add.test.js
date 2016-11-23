@@ -1,9 +1,5 @@
-//NODE
 var add = require('./../js/add.js');
 var expect = require('chai').expect;
-
-//WEB
-//var expect = chai.expect;
 
 describe('加法函數測試', function() {
   it('1 加 1 應該等於 2', function() {
